@@ -13,6 +13,22 @@ const game = () => {
             match.classList.add("fadeIn");
         });
     };
+
+    //Button sound
+
+    const startPlay = document.getElementById("play");
+    const startSound = document.querySelector(".playButton");
+    startSound.addEventListener("click", function(){
+        startPlay.play();
+    });
+
+
+    const action = document.getElementById("actionSound");
+    const actionButton = document.querySelector(".options");
+    actionButton.addEventListener("click", function(){
+        action.play();
+    });
+
     //Play Match
     const playMatch = () => {
         const options = document.querySelectorAll(".options button");
