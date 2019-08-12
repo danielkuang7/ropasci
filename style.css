@@ -50,7 +50,7 @@ section{
     color: white;
     font-size: 20px;
     background: rgb(132, 143, 132);
-    border-radius: 3px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
@@ -147,5 +147,14 @@ div.fadeIn{
     100%{
         transform: translateY(0px);
     }
+}
+
+footer{
+    text-align: center;
+}
+
+footer a, footer a:hover {
+    color: rgb(132, 143, 132);
+    text-decoration: none;
 }
 
